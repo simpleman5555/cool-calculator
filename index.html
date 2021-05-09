@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <title>A Cool Kalkulátor</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <form name="form1" method="get">
+                    <input readonly type="text" id="headerNumber1">
+                    <input readonly type="text" id="headerOperationSign">
+                    <input readonly type="text" id="headerNumber2">
+                </form>
+                <button type="button" id="headerEqualSign">=</button>
+                <button type="button" id="headerDel">Del</button>
+                <button type="button" id="delOneNumber1">X</button>
+                <button type="button" id="delOneNumber2">X</button>
+                <div id="result"></div>
+            </div>
+            <div id="buttonAndList">
+                <div id="buttons">
+                    <button type="button" id="button0">0</button>
+                    <button type="button" id="button1">1</button>
+                    <button type="button" id="button2">2</button>
+                    <button type="button" id="button3">3</button>
+                    <button type="button" id="button4">4</button>
+                    <button type="button" id="button5">5</button>
+                    <button type="button" id="button6">6</button>
+                    <button type="button" id="button7">7</button>
+                    <button type="button" id="button8">8</button>
+                    <button type="button" id="button9">9</button>
+                    <button type="button" id="button10">.</button>
+                    <button type="button" id="button11">neg</button>
+                    <button type="button" id="button12">+</button>
+                    <button type="button" id="button13">-</button>
+                    <button type="button" id="button14">*</button>
+                    <button type="button" id="button15">/</button>
+                </div>
+                <div id="countingList" contenteditable="false"></div>
+                <button type="button" id="clearCountingList">C</button>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="javascript.js"></script>
+    </body>
+</html>
